@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    background-image: url("images.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    font-size: 35px;
+    line-height: 80px;
+    font-size: inline;
+    color: #eb7620;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+}
+nav ul li a.active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: blue;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color:black;
+    letter-spacing: 1.5px ;
+    
+    margin-bottom:50px ;
+}
+.article .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: o.5s ease;
+}
